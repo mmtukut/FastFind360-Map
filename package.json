@@ -37,4 +37,12 @@
       "last 1 safari version"
     ]
   }
+  {
+    "homepage": "https://<mmtukut>.github.io/FastFind360-Map>",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+  }
+  
 }
